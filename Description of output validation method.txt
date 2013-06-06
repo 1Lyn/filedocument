@@ -1,0 +1,22 @@
+OUTPUT VALIDATION METHOD
+
+TECHNICAL FIELD
+
+The present invention relates to output validation methods and is a solution to validating that an output is created and modified only by a specific process. The specific process may consist of several processes.
+
+BACKGROUND OF THE INVENTION
+
+Often the output of a process can be modified afterwards by the client or any other party to represent what they want. It is also possible that they create the output from scratch without the use of the process. It is problematic to validate that only the process intended to modify the output has been used to produce and/or create the output.
+
+DETAILED DESCRIPTION OF OUTPUT VALIDATION METHOD
+
+By documenting all acts that contribute to creating and modifying an output of a process one can validate that the output was indeed created and modified only by the specific process. The documentation may in some cases be enough proof as is.
+  The method to truly validate that an output was created and modified by a process is to document the process entirely including details of tools, technical machines, methods and such things that contribute to creating and modifying the output. Even the ways of using the aforementioned should be documented.
+  Using the information presented in the documentation one can try reconstructing the output by going through the exact same process as described in the documents. By comparing the output to be validated and the documentation to the reconstruction, the output created by this method, one can either prove or disprove that the original output was created by the specific process.
+
+EXAMPLE OF APPLYING THIS INVENTION
+
+This invention is easy to apply in the form of software(s). If the specific process is a software that creates and modifies an output (file), one can document the process (software) and the ways of using the process (user input). Coupling the output (file) and documentation (software and user input) one can prove that the output (file) was created and modified by the specific process (software) by reconstructing it by using the documentation (software and user input).
+
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the page “GNU Free Documentation License”.
+The copyright and license notices on this page only apply to the text on this page. Any software described in this text has its own copyright notice and license, which can usually be found in the distribution itself.
